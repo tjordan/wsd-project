@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#wrapper {
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:780px;
+	height:830px;
+}
+
+.contentcats {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+
+#Slicecupcakes_ {
+position:absolute;
+left:0px;
+top:0px;
+width:300px;
+height:175px;
+}
+
+#Slicecupcakes002_ {
+position:absolute;
+left:560px;
+top:290px;
+width:6px;
+height:540px;
+}
+
+#Slicecupcakes003_ {
+position:absolute;
+left:758px;
+top:290px;
+width:13px;
+height:540px;
+}
+
+#Slicecupcakes004_ {
+position:absolute;
+left:566px;
+top:291px;
+width:192px;
+height:539px;
+}
+
+#cupcake
+{
+	position:absolute;
+	left:566px;
+	top:120px;
+	width:192px;
+	height:539px;
+}
+
+#Slicecupcakes005_ {
+position:absolute;
+left:390px;
+top:300px;
+width:162px;
+height:18px;
+}
+
+#Slicecupcakes006_ {
+position:absolute;
+left:203px;
+top:301px;
+width:162px;
+height:18px;
+}
+
+#Slicecupcakes007_ {
+position:absolute;
+left:12px;
+top:304px;
+width:162px;
+height:18px;
+}
+
+.h1style {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: underline;
+	top: 304px;
+	position: absolute;
+}
+
+.h2style
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: underline;
+	top: 304px;
+	position: absolute;
+}
+
+.h3style
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: underline;
+	top: 304px;
+	position: absolute;
+}
+
+#Slicecupcakes008_ {
+position:absolute;
+left:12px;
+top:324px;
+width:176px;
+height:207px;
+}
+
+#Slicecupcakes009_ {
+position:absolute;
+left:203px;
+top:324px;
+width:176px;
+height:207px;
+}
+
+#Slicecupcakes010_ {
+position:absolute;
+left:386px;
+top:324px;
+width:174px;
+height:207px;
+}
+
+#Slicecupcakes011_ {
+	position:absolute;
+	left:12px;
+	top:633px;
+	width:544px;
+	height:177px;
+	background-image: url(images/Slicecupcakes-11.png);
+}
+
+.text11style {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFF;
+	position: relative;
+	z-index: 999;
+	left: 200px;
+}
+
+.break
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFF;
+	position: relative;
+	z-index: 999;
+	left: 100px;
+}
+
+.cbdb-menu li {  
+    display:inline;
+	position:relative;
+	top: 30px;
+	left: 200px;  
+    float: left;  
+    line-height: 25px;  
+    list-style:none;  
+    margin: 0 5px;  
+    padding: 0 15px;  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);  
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);  
+}    
+
+.cbdb-menu a:hover {  
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);  
+}  
+li.dark a {  
+    color: rgba(0, 0, 0, 0.8);  
+font-weight: bold;  
+    text-decoration: none;  
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);  
+}
+
+.foot {
+	position: absolute;
+	top: 880px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+}
