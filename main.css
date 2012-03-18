@@ -1,0 +1,520 @@
+/*************************************************************************************************
+General Layout Credit to: http://www.templatemo.com. All edits, Media Queries and site ideas from Ti-Sheba Jordan
+Need to do some serious editting and review for Week 4
+***************************************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #252525;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #f0f0f0 ;
+	background-image: url(images/body.png);
+	background-repeat: repeat-x;
+	background-position: top
+}
+
+a, a:link, a:visited { color: #996600; font-weight: 400; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #000; font-weight: bold; font-style: normal }
+
+h1, h2, h3, h4, h5, h6 { color: #19b6bc; font-weight: normal; }
+h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 25px; margin: 0 0 15px 0; padding: 5px 0; }
+h2 span { color: #e12995 }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+a.more { clear: both; display: block; width: 130px; height: 44px; line-height: 44px; font-size: 18px; text-align: center; color: #6f6f6f; font-weight: 400; background: url(images/templatemo_more.png) no-repeat }
+a.more:hover { text-decoration: none; color: #000; }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 5px solid #fff; background: none; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+/* ------------------ */
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto
+}
+
+#templatemo_header {
+	width: 960px;
+	height: 85px;
+	padding: 20px 0 0;
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 163px; height: 59px; color: #fff; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat }
+
+/* menu */
+#templatemo_menu {
+	float: right;
+	margin-top: 20px;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	padding: 0 40px;
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #816bcb;	
+	font-weight: 400;
+	outline: none;
+	border-right: 1px solid #816bcb;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current { color: #fff }
+#templatemo_menu ul li .last { border: none; padding-right: 0 }
+
+
+/* end of menu */
+
+
+#templatemo_middle {
+	clear: both;
+	width: 960px;
+	height: 325px;
+	padding: 50px 0 0;
+	background: url(images/templatemo_middle.jpg) no-repeat 
+}
+
+#mid_img_wrap {
+	float: left;
+	position: relative;
+	width: 491px;
+	height: 282px;
+	padding: 24px 50px;
+}
+
+#mid_img_wrap span {
+	position: absolute;
+	width: 591px;
+	height: 282px;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	background: url(images/templatemo_slider_frame.png) no-repeat
+}
+
+#mid_right {
+	float: right;
+	margin-top: 50px;
+	width: 320px;
+	color: #fff;
+}
+
+#mid_right a {
+	color: #FFFF00;
+}
+#mid_right p { margin-bottom: 20px }
+
+#mid_title { 
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#mid_right 
+/**************************Gradient Button Attempt***************************/
+
+a.button {
+	display: inline-block;
+	float: right;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.blue {
+	color: #072892;
+	border: solid 1px #3f69ee;
+	background: #0052cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#072892), to(#0052cd));
+	
+}
+.blue:hover {
+	background: #007edd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#39a9f1), to(#5784e0));
+}
+	
+.blue:active {
+	color: #91cadb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f589f1), to(#eec2e7));
+	
+}
+#main {
+	clear: both;
+	width: 960px;
+	padding: 60px 0 0
+}
+
+.content_box {
+	margin-bottom: 40px
+}
+
+/*************************** Middle 3-Column **********************/
+
+.col_3 {
+	float: left;
+	width: 260px;
+	padding: 20px;
+	margin-right: 30px;
+	background: url(images/column_box.png) no-repeat top center
+}
+
+.col_3 h3 {
+	font-size: 20px;
+}
+
+.col_3 h3 span { 
+  display: block; 
+  color: #6551a4; 
+  font-size: 13px 
+}
+
+.col_3 p { 
+   margin-bottom: 20px 
+}
+
+.col_3 a.more {
+    margin: 0 auto 
+}
+
+.col_last { 
+    margin: 0 
+}
+
+
+/***************************** Footer **********************/
+
+#footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: url(images/stormy_footer.png) repeat-x
+}
+
+#footer {
+	width: 960px;
+	height: 240px;
+	padding: 40px 0 0;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.footer_box {
+	float: left;
+	width: 210px;
+	margin-right: 30px;
+}
+
+.footer_box h4 {
+	color: #b2db50;
+	font-size: 24px;
+	margin-bottom: 20px
+}
+
+.footer_list { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none 
+}
+
+.footer_list li { 
+    margin: 0 0 5px; 
+    padding: 0 0 5px; 
+    border-bottom: 1px solid #a998d9; 
+    color: #fff 
+}
+
+.footer_list li a { 
+    color: #fff 
+}
+
+#footer_menu_box {
+    clear: both; 
+    width: 960px; 
+    height: 37px; 
+    margin: 0 auto; 
+    text-align: center 
+}
+
+.footer_menu { 
+    margin: 0; 
+    padding: 10px 0; 
+    list-style: none 
+}
+
+.footer_menu li { 
+    margin: 0 30px; 
+    padding: 0; 
+    display: inline 
+}
+
+.footer_menu li a {
+    color: #19b6b
+}
+
+.footer_menu li a:hover { 
+    color: #e12995 
+}
+
+/**********************Copyright Information************************/
+
+#copyright {
+	clear: both;
+	width: 960px;
+	height: 35px;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #e12995;
+}
+#copyright a { 
+    color: #19b6b
+}
+
+/* =Media Queries=Need to be completely reworked for Week 4. Looks fine on iPhone, but not scaling correctly on browsers.
+=============================================================================== */
+  
+    /* Tablet Portrait Size to standard 960 (devices and browsers) */
+     @media screen and {min-width: 768px) and (max-width: 959px) {
+}
+
+/*************************** Middle 3-Column **********************/
+
+.col_3 {
+	float: left;
+	width: 26px;
+	padding: 2px;
+	margin-right: 3px;
+	background: url(images/column_box.png) no-repeat top center
+}
+
+.col_3 h3 {
+	font-size: 20px;
+}
+
+.col_3 h3 span { 
+  display: block; 
+  color: #6551a4; 
+  font-size: 13px 
+}
+
+.col_3 p { 
+   margin-bottom: 20px 
+}
+
+.col_3 a.more {
+    margin: 0 auto 
+}
+
+.col_last { 
+    margin: 0 
+}
+    /******************** Footer Treatment ***********************/
+
+
+#footer_menu_box {
+	width: 97.4025974025974%; /* 750px/770px */
+	margin: 50px auto 15px auto;
+	padding: 0.6666666666667%; /* 5px/750px */
+}
+
+.footer_menu{
+	margin: 20px 6.6666666666667% 10px 6.6666666666667%; /* 50px/750px */
+	padding: 0.6666666666667%; /* 5px/750px */
+}
+
+#copyright {
+	clear: both;
+	width:  97.4025974025974%; /* 750px/770px */
+	height: 100%;
+	padding:  1.0869565217391%; /* 5px/460px */
+	margin: 0 auto;
+	text-align: center;
+	color: #e12995;
+}
+#copyright a { 
+    color: #19b6b
+}
+  
+    /* Mobile Landscape Size to Tablet Portrait (devices and brosers) */
+     @media screen and {min-width: 480px) and (max-width: 787px) {
+}
+
+   /******************* Overall Components ***********************/
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	/************************* Head *******************************/
+
+	head {
+		width: 23.9130434782609%; /* 110px/460px */
+		margin: 1.0869565217391%; /* 5px/460px */
+		height: 100%;
+		margin-right: 0;
+		border-radius: 15px;
+		float: left;
+		padding-bottom: 15px;
+	}
+
+	header h1 {
+		margin-top: 5px;
+		float: none;
+		font-size: 1.3em;
+		text-indent: 0;
+		text-align: center;
+	}
+
+	header img {
+		float: none;
+		width: 25%; /* 40px/160px */
+		margin: 37.5%; /* 60px/160px */
+	}
+
+	/******************** Horizontal Nav Bar **********************/
+
+	nav {
+		float: none;
+		width: 100%;
+	}
+
+	nav ul {
+		margin: 0;
+		width: 100%;
+		border-bottom: 1px dashed #91cadb;
+	}
+
+	nav li {
+		width: 100%;
+		float: none;
+	}
+
+	nav li a:link {
+		height: 44px;
+		line-height: 44px;
+		border-top: 1px dashed #91cadb;
+	}
+
+	nav li a:hover {
+		background: #000;
+		color: #91cadb;
+	}
+
+	nav li a:active {
+		color: #000;
+		background: #91cadb;
+	}
+
+   /************************ Footer  *************************/
+
+
+#footer_menu_box {
+	width: 95.8333333333333%; /* 460px/480px */
+	padding: 1.0869565217391%; /* 5px/460px */
+}
+
+.footer_menu{
+	margin: 20px 10.8695652173913% 10px 10.8695652173913%; /* 50px/460px */
+	padding: 1.0869565217391%; /* 5px/460px */
+}
+  
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and brosers) */
+     @media screen and {min-width: 479px) {
+}
+
+   /********************Overall Components // No more time to continue edits-need to completely redo for week 4-CSS is neater but not nearly as effective as previous. ************************/
+
+body {
+  min-width: 300px;
+	/*font: 100%/1.5 arial, sans-serif;*/
+}
+
+	/************************** Headers// Need to match naming conventions to original for media queries to get to scale like form area ********************************/
+
+h1, h2 {
+   font-family: "Helvetica Neue",Arial, sans-serif; 
+}
+
+h1 {
+    line-height: 1em;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	text-shadow: none;
+}
+
+   /******************************** Footer *************************/
+
+#footer_menu_box {
+		width: width: 96.6666666666667%; /* 290px/300px */
+		margin: 10px auto 15px auto;
+		padding: 1.0344827586207%; /* 3px/290px */
+}
+
+.footer_menu{
+		width: 86.2068965517241%; /* 250px/290px */
+		margin: 0 auto;
+		padding: 1.2%; /* 3px/250px */
+	}
